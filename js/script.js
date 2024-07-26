@@ -156,6 +156,7 @@ const gameOver = () => {
 };
 
 const gameLoop = () => {
+  //alterei aqui
   clearInterval(loopId);
 
   ctx.clearRect(0, 0, 600, 600);
